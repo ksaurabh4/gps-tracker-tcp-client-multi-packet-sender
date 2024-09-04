@@ -11,17 +11,25 @@ This script is designed to send multiple hex-encoded data packets to a TCP serve
 
 ## How to Use
 
-### Step 1: Set Up the Python Environment
+### Option 1: Run on Google Colab
 
-Make sure Python is installed on your system. This code uses the built-in `socket` and `time` libraries, so no additional packages are needed.
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Copy and paste the Python code (provided below) into a new notebook.
+3. Replace the **`ip`**, **`port`**, and **`hex_data_list`** values in the code with your own.
+4. Click on the "Run" button to execute the script.
 
-### Step 2: Modify the IP, Port, and Data
+If you'd prefer to use the pre-existing Colab notebook, you can [click here to open the notebook](https://colab.research.google.com/drive/1-lxmNV8_j7CabMejA8QAkFrjJ4GSurdx). *(Update this link with your Colab notebook URL once saved and shared)*.
 
-In the script, replace the following values:
+### Option 2: Run Locally
 
-- **`ip`**: The IP address of the TCP server.
-- **`port`**: The port number of the TCP server.
-- **`hex_data_list`**: A list of hex strings you want to send.
+1. Save the script in a Python file (e.g., `tcp_client.py`).
+2. Open a terminal or command prompt.
+3. Navigate to the directory where you saved the script.
+4. Run the script using Python:
+
+```bash
+python tcp_client.py
+```
 
 For example:
 

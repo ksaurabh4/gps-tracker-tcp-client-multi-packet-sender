@@ -28,7 +28,7 @@ If you'd prefer to use the pre-existing Colab notebook, you can [click here to o
 4. Run the script using Python:
 
 ```bash
-python TCP_client.py
+python tcp_client.py
 ```
 
 For example:

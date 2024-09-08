@@ -1,4 +1,4 @@
-# TCP Client for Sending Hex Data
+# GPS Tracker TCP Client for Sending Hex Data
 
 This script is designed to send multiple hex-encoded data packets to a TCP server over the same connection. It can optionally receive and print responses from the server.
 

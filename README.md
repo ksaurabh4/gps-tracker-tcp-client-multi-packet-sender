@@ -41,3 +41,11 @@ hex_data_list = [
     '78781f121809030e1620c6027917540c4679500f142101cc00243c003e4a027fb7ac0d0a'
 ]
 
+```
+
+## Error Handling
+In case of issues with sending the message or generating the access token, appropriate error messages will be printed to the console, detailing the cause of failure.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE file](https://github.com/ksaurabh4/tcp-client-multi-packet-sender/blob/main/LICENSE) for details.
+
